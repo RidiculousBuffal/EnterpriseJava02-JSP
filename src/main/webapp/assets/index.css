@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.guide-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 20px;
+    width: 250px; /* 设置引导块的宽度 */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    cursor: pointer;
+    margin: 10px 0; /* 添加上下间距 */
+}
+
+.guide-block:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 40px;
+    color: #2196F3;
+    margin-right: 15px;
+}
+
+.guide-text {
+    font-size: 18px;
+    color: #555;
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.variable-list {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.variable-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.variable-item:last-child {
+    border-bottom: none; /* 最后一个项不显示底部边框 */
+}
+
+.variable-name {
+    font-weight: bold;
+    color: #2196F3;
+}
+
+.variable-value {
+    color: #555;
+}
