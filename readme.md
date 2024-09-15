@@ -235,3 +235,8 @@ JSP作用域包括 page、request、session和application：
 - request：仅对本次请求有效，一旦jsp、servlet将数据放入request中，该数据将可以被该次请求的其他jsp和servlet访问；
 - page：仅对当前页面有效，一旦jsp，servlet将数据放入page范围中，该数据只可以被当前页面的jsp脚本、声明部分访问。
 
+## Code
+通过Iframe标签页进行展示
+- [ScopeExercise_first.jsp](src%2Fmain%2Fwebapp%2Fexercise%2FScopeExercise_first.jsp)
+- [ScopeExercise_second.jsp](src%2Fmain%2Fwebapp%2Fexercise%2FScopeExercise_second.jsp)
+- [ScopeExerciseShow.jsp](src%2Fmain%2Fwebapp%2Fexercise%2FScopeExerciseShow.jsp)
